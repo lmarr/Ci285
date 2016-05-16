@@ -65,3 +65,5 @@ getDivR x y = selectRep $ do
      provideJson res
    where
      res = x `div` y
+     main :: IO ()
+     main = warp 3000 App
